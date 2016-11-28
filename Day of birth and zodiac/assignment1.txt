@@ -1,0 +1,20 @@
+Description: 
+In this assignment we'll use test driven development to create the program we discussed in homework 1.
+Follow test first coding, don't write any code unless a failing test demands it. Write minimum code to make tests pass. Start early and take very small steps. 
+Keep your tests passing at all times. Keep the design lightweight and the code quality high.
+
+Complete this:
+After the implementation is complete (and only after it's complete), compare the design created in Assignment 1 with the design you described in Homework 1.
+
+Changes that were made to the design are the following:
+   1: A completely new object 'UnitTest' was added for implementing the Test Driven Development
+       a)Because of this, a new instance field was added to Main()
+   2: UserBirthDate needed new methods to allow the UnitTest to operate properly.
+       a)Added equals method
+       b)Added toString method
+       c)Added FromString static method...Used to build UserBirthDate from String
+
+
+
+NOTE: 
+Make sure you commit to SVN after each iteration. This will help TA to verify the TDD transition.
